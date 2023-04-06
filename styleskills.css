@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background: #231F20;
+    color: #fff;
+    background-repeat: repeat;
+}
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.header{
+    position: relative;
+    width: 100%;
+    height: 100vh;;
+}
+
+.header .navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.menu ul {
+    margin-left: 100px;
+}
+
+.menu ul li{
+    display: inline-block;
+    margin-right: 35px;
+    cursor: pointer;
+    align-items: center;
+    
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+}
+.menu ul li a:hover{
+    color:#c32865;   
+}
+
+h1{
+    margin-top: 70px;
+    margin-bottom: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.sub-title{
+    font-size: 50px;
+    font-weight: 60%;
+    color: #fff;
+}
+
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.skills h2{
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 9px;
+    color: #fff;
+    font-size: 16px;
+
+}
+
+.progess-bar{
+    background: #959595;
+    width: 600px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.progess-bar div{
+    height: 10px;
+    border-radius: 5px;
+    width: 0%;
+    background: #c32865;
+}
+
+.progess-bar div span{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #231F20;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.graphic{
+    animation: graphic 1s linear forwards;
+}
+.ms{
+    animation: ms 1s linear forwards;
+}
+.dd{
+    animation: dd 1s linear forwards;
+}
+.code{
+    animation: code 1s linear forwards;
+}
+
+.mk{
+    animation: mk 1s linear forwards;
+}
+
+.graphic span{
+    border: 1px solid #c32865;
+}
+.ms span{
+    border: 1px solid #c32865;
+}
+.dd span{
+    border: 1px solid #c32865;
+}
+.code span{
+    border: 1px solid #c32865;
+}
+.mk span{
+    border: 1px solid #c32865;
+}
+
+@keyframes graphic{
+    100%{
+        width: 100%;
+    }
+}
+@keyframes ms{
+    100%{
+        width: 90%;
+    }
+}
+@keyframes dd{
+    100%{
+        width: 100%;
+    }
+}
+@keyframes code{
+    100%{
+        width: 80%;
+    }
+}
+@keyframes mk{
+    100%{
+        width: 70%;
+    }
+}
+
+.social-icons{
+    position: absolute;
+    right: 50px;
+    bottom: 2%; 
+}
+
+ 
+.social-icons ul li{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+
+.social-icons ul li a{
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 12px 17px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.social-icons ul li a:hover{
+    background: #c32865;
+    color: #fff;
+}
+
+.copy-right{
+    position: absolute;
+    left: 50px;
+    bottom: 4%;   
+}
+
+.copy-right p{
+    color: #fff;
+}
+
+
